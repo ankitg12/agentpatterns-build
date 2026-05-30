@@ -1,7 +1,7 @@
 site_name: AgentPatterns.ai — Complete Reference
 site_url: https://agentpatterns.ai
-docs_dir: C:/Users/angaur/repos/github.com/agentpatterns-ai/website
-site_dir: C:/Users/angaur/Downloads/agentpatterns-book
+docs_dir: ../agentpatterns-ai/website   # adjust to your local clone of github.com/agentpatterns-ai/website
+site_dir: ./site
 
 exclude_docs: |
   README.md
