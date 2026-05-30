@@ -1,0 +1,6 @@
+__pycache__/
+mermaid-cache/
+*.log
+filelist.txt
+pandoc-defaults.yaml
+pandoc.log

@@ -1,0 +1,34 @@
+title: "Agent Patterns"
+subtitle: "Patterns and Techniques for AI Coding Assistants"
+author: "Bradley Boveinis"
+date: "2026"
+titlepage: true
+titlepage-color: "E8381A"
+titlepage-text-color: "FFFFFF"
+titlepage-rule-color: "FFFFFF"
+titlepage-rule-height: 4
+book: true
+classoption: oneside
+toc-own-page: true
+lot: false
+lof: false
+mainfont: "Palatino Linotype"
+sansfont: "Arial"
+monofont: "Courier New"
+fontsize: 10pt
+linestretch: 1.2
+papersize: letter
+geometry: "top=1in, bottom=1in, left=1.25in, right=1in"
+colorlinks: true
+linkcolor: "ap-orange"
+urlcolor: "ap-blue"
+toccolor: "ap-orange"
+code-block-font-size: '\small'
+listings-no-page-break: true
+header-includes:
+  - \usepackage[HTML]{xcolor}
+  - \definecolor{ap-blue}{HTML}{1A5276}
+  - \definecolor{ap-orange}{HTML}{E8381A}
+  - \addtokomafont{chapter}{\color{ap-orange}}
+  - \addtokomafont{section}{\color{ap-blue}}
+  - \addtokomafont{subsection}{\color{ap-blue}}

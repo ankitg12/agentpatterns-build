@@ -1,0 +1,64 @@
+site_name: AgentPatterns.ai — Complete Reference
+site_url: https://agentpatterns.ai
+docs_dir: C:/Users/angaur/repos/github.com/agentpatterns-ai/website
+site_dir: C:/Users/angaur/Downloads/agentpatterns-book
+
+exclude_docs: |
+  README.md
+  CONTRIBUTING.md
+  LICENSE
+  hooks/
+  llms.txt
+  llms-full.txt
+  robots.txt
+  lastmod-manifest.json
+
+theme:
+  name: material
+  logo: assets/logo.png
+  palette:
+    scheme: default
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - awesome-pages
+  - print-site:
+      add_to_navigation: false
+      add_full_urls: false
+      enumerate_headings: true
+      enumerate_figures: true
+      add_cover_page: true
+      cover_page_template: ""
+      toc_title: 'Table of Contents'
+      add_table_of_contents: true
+      toc_depth: 2
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - footnotes
+  - attr_list
+  - def_list
+  - md_in_html
+  - toc:
+      permalink: true
